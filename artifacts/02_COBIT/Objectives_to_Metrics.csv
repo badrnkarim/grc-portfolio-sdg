@@ -1,0 +1,9 @@
+Objective_Area,Goal,Metric,Target,Cadence,Owner,Evidence_Source
+Risk optimization,Prioritize and treat top risks,Overdue High risks,0,Weekly,Badr Karim,GRC_Master.xlsx (Risk Register)
+Risk optimization,Ensure risk treatment progress,Remediation On-time %,>=90%,Weekly,Badr Karim,GRC_Master.xlsx (Issues & Remediation)
+Security management,Operate access controls reliably,CT-01/02/03 completion %,>=90%,Monthly,Badr Karim,artifacts/06_SOC2_Assurance/CT-*.md + Evidence Tracker
+Security management,Maintain auditability and traceability,Audit log export freshness,Weekly export present,Weekly,Badr Karim,SDG exports: audit_logs/query_runs
+Change governance,Prevent uncontrolled releases,% releases with change review evidence,>=95%,Per release,Badr Karim,Change_Review_Checklist + CI pass
+Internal control monitoring,Keep evidence current,Evidence Freshness %,>=90%,Weekly,Badr Karim,GRC_Master.xlsx (Evidence Tracker)
+Supplier governance,Reduce vendor risk exposure,Vendor reviews completed on schedule,>=90%,Quarterly,Badr Karim,Vendor Register + review notes
+Compliance governance,Maintain obligations awareness,Obligations register reviewed,Monthly review present,Monthly,Badr Karim,Obligations Register + monthly report
