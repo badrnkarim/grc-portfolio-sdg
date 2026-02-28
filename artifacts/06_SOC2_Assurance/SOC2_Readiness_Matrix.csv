@@ -1,5 +1,5 @@
 TSC_Category,Control_ID,Control_Objective,Control_Description,SDG_Mapping,Evidence_Required,Frequency,Owner,Status
-Security,SOC2-AC-01,Logical access requires strong authentication,MFA required for interactive access,Password + TOTP MFA supported/enforced in SDG auth flow,CT-01 + redacted screenshots,Per release,Badr Karim,Planned
+Security,SOC2-AC-01,Logical access requires strong authentication,MFA required for interactive access,Password + Email OTP MFA enforced in this deployment (evidence via CT-01),CT-01 + redacted screenshots,Per release,Badr Karim,Planned
 Security,SOC2-AC-02,Authorization enforces least privilege,RBAC restricts access to approved templates/targets,role_targets + role_templates enforced by gateway,CT-02 + RBAC exports,Monthly,Badr Karim,Planned
 Security,SOC2-CH-01,Change management prevents uncontrolled changes,Changes reviewed and gated by checks,Change review checklist + CI hygiene gate,Checklist + CI evidence,Per release,Badr Karim,Planned
 Security,SOC2-LG-01,Logging supports accountability and investigation,Requests and query runs are logged,audit_logs + query_runs in meta DB,audit_logs export + query_runs_sanitized export,Weekly,Badr Karim,Planned
