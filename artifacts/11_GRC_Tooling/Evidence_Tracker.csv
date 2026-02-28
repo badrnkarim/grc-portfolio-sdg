@@ -10,3 +10,12 @@ E-008,SDG-SDLC-01,Hygiene check pass output,Badr Karim,Command output capture,Pe
 E-009,SDG-CH-01,Change review checklist,Badr Karim,Checklist completion,Per release,,,,
 E-010,SDG-TPRM-01,Vendor review note + tracker update,Badr Karim,Note + CSV update,Quarterly,,,,
 E-011,SDG-DP-01,Data inventory/classification/retention/DPIA pack,Badr Karim,Document pack,Annual,,,,
+E-001A,SOC2-AC-01 / SDG-AC-01,CT-01 Email OTP challenge screen,Badr Karim,Screenshot (redacted),Per release,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-01_EmailOTP_Code_Challenge_2026-02-28.png,Email OTP challenge shown (no code exposed).
+E-001B,SOC2-AC-01 / SDG-AC-01,CT-01 Email OTP login success,Badr Karim,Screenshot (redacted),Per release,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-01_EmailOTP_Login_Success_2026-02-28.png,Post-OTP successful session (Admin Panel).
+E-002A,SOC2-AC-02 / SDG-AC-02,CT-02 RBAC deny proof (Target not allowed),Badr Karim,Screenshot (redacted),Monthly,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-02_RBAC_Deny_Target_Not_Allowed_2026-02-28.png,Least privilege deny after revoke.
+E-002B,SOC2-AC-02 / SDG-AC-02,CT-02 RBAC allow proof (Query success),Badr Karim,Screenshot (redacted),Monthly,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-02_RBAC_Allow_Query_Success_2026-02-28.png,Authorized execution success (cropped to avoid sensitive results).
+E-012,SDG-QS-01,CT-04 SQL safety blocks DDL (DROP),Badr Karim,Screenshot (redacted),Per release,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-04_SQL_Safety_DDL_Block_2026-02-28.png,Proof of DDL block before execution.
+E-013,SDG-NW-01,CT-05 SSRF/target allowlist block,Badr Karim,Screenshot (redacted),Per release,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-05_SSRF_Target_Block_2026-02-28.png,Host/IP redacted. Forbidden target rejected.
+E-015,SDG-IN-01,CT-06 integrity verify mismatch,Badr Karim,Screenshot (redacted),Monthly,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-06_Integrity_Verify_Mismatch_2026-02-28.png,Mismatch detected when DB changes.
+E-014,SDG-IN-01,CT-06 integrity verify match,Badr Karim,Screenshot (redacted),Monthly,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_CT-06_Integrity_Verify_Match_2026-02-28.png,Verify succeeds when unchanged.
+E-020,SOC2-AC-02 / SDG-AC-02,RBAC permissions UI (supporting),Badr Karim,Screenshot (redacted),Per release,2026-02-28,,artifacts/14_Evidence/2026-02/SOC2_SEC_RBAC_Permissions_UI_2026-02-28.png,Supporting context only.
