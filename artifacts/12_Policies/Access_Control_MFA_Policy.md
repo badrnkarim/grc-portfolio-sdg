@@ -17,7 +17,7 @@ Applies to:
 ## 3) Policy statements
 ### 3.1 Authentication
 - Users must authenticate with strong credentials.
-- Where enabled, **TOTP MFA (Authenticator app)** is required for interactive access.
+- Where enabled, **OTP-based MFA (Email OTP in this deployment)** is required for interactive access.
 - Shared accounts are prohibited.
 
 ### 3.2 Authorization (least privilege)
