@@ -1,36 +1,53 @@
-# GRC Proof Portfolio — Secure Database Gateway (SDG)
+# SDG — GRC Proof Portfolio (Evidence-Backed)
 
-**Owner:** Badr Karim (badr.n.karim@gmail.com)  
-**Target roles:** GRC Intern • Third-Party Risk (TPRM) Intern  
-**Availability:** June 2026 (U.S. Citizen)  
-**Anchor system:** Secure Database Gateway (SDG)
+Owner: **Badr Karim** (U.S. Citizen)  
+As-of: **2026-02-28**  
+Target roles: **GRC Intern • TPRM Intern • Security Assurance/Audit Intern**
 
-## Executive summary
-This repository is a practical, evidence-driven GRC portfolio anchored on SDG. It demonstrates the ability to:
-- Define and operate a governance model (cadence, roles, reporting)
-- Perform risk assessment with measurable scoring and treatment planning
-- Map controls to a real system and maintain audit-ready evidence
-- Prepare for assurance (SOC 2 style readiness, evidence requests, control testing)
-- Operate compliance obligations tracking (ISO 37301-style CMS artifacts)
-- Conduct third-party risk management (TPRM) with remediation tracking
-- Manage data protection operations (inventory, classification, retention, mini DPIA)
+This repository is a complete, audit-ready GRC portfolio anchored on a real system (**Secure Database Gateway — SDG**).  
+It contains governance artifacts, risk methodology, control mapping, compliance tracking, SOC 2 readiness materials, and **executed control tests with evidence**.
 
-## SDG (anchor system) — implementation-aligned description
-SDG is a secure database access layer that prevents direct database access by enforcing:
-- **Authentication:** password + **TOTP MFA (Authenticator app)** (pyotp)
-- **Authorization:** RBAC (roles → allowed targets/templates)
-- **Query execution:** template-only queries with strict validation (DDL-blocking SQL safety validation) and server-side LIMIT clamp
-- **SSRF safeguards:** endpoint validation/allowlisting for targets
-- **Auditability:** request audit logs + per-execution query run logs
-- **Secrets protection:** encrypted sensitive fields (Fernet) and env-only secrets
-- **Integrity snapshots:** snapshot/verify workflow supporting drift detection
+---
 
-## Repository structure
-- `artifacts/` — all portfolio outputs (governance, risk, controls, SOC2, compliance, TPRM, data protection, tooling)
-- `docs/` — standards and operating guides (evidence naming, tickets board)
-- `artifacts/14_Evidence/` — evidence repository structure (files must follow naming standard; no secrets)
+## Start here (60 seconds)
+1) **Recruiter overview:** `docs/RECRUITER_OVERVIEW.md`  
+2) **Portfolio index:** `artifacts/00_Index/PORTFOLIO_INDEX.md`  
+3) **Executed tests summary:** `docs/CONTROL_TESTS_SUMMARY.md`  
+4) **Framework coverage:** `docs/FRAMEWORK_COVERAGE.md`
 
-## Non-negotiable safety rules (audit-grade)
-- Do not commit secrets (.env files, tokens, keys, passwords).
-- Evidence shared publicly must be sanitized (no internal hostnames/IPs if sensitive, no tracebacks, no sensitive params).
-- ISO standards are copyrighted; this portfolio avoids reproducing them verbatim and uses control topics/outcomes.
+---
+
+## What makes this portfolio strong
+- **Evidence-driven**: screenshots + sanitized exports, linked end-to-end
+- **Framework-aligned**: COBIT, NIST CSF 2.0, ISO 27001/27002/27005, ISO 31000, SOC 2, ISO 37301
+- **Audit-ready**: workpapers, issue log, MAP tracker, evidence naming standard
+- **Honest**: findings are documented and remediations tracked
+
+---
+
+## Executed controls (proof)
+Evidence is stored under: `artifacts/14_Evidence/2026-02/` and tracked in:
+- `artifacts/11_GRC_Tooling/Evidence_Tracker.csv`
+- `artifacts/11_GRC_Tooling/GRC_Master.xlsx`
+
+Open: `docs/CONTROL_TESTS_SUMMARY.md`
+
+---
+
+## Repository map (what’s inside)
+- `artifacts/01_Governance/` — charter, RACI, cadence, KPIs/KRIs, change review checklist  
+- `artifacts/05_Risk_ISO31000_27005/` — risk methodology, risk register, treatment plan  
+- `artifacts/04_ISO27001_27002/` — ISMS scope, SoA, control mapping matrix  
+- `artifacts/06_SOC2_Assurance/` — SOC 2 readiness matrix, evidence request list, workpapers  
+- `artifacts/08_TPRM/` — vendor risk pack + remediation tracker  
+- `artifacts/07_ISO37301_Compliance/` — CMS charter + obligations register (conditional applicability)  
+- `artifacts/11_GRC_Tooling/` — master workbook + evidence tracker + monthly report template  
+- `artifacts/14_Evidence/` — sanitized evidence with audit-friendly naming
+
+---
+
+## Evidence rules (non-negotiable)
+- No secrets or OTP codes in screenshots  
+- No sensitive query results in screenshots  
+- All evidence named per: `docs/EVIDENCE_NAMING_STANDARD.md`
+
