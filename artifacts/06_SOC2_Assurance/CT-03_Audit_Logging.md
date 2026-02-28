@@ -44,8 +44,8 @@ Re-performance + inspection of exported logs (sanitized columns).
 - Evidence file naming follows docs/EVIDENCE_NAMING_STANDARD.md.
 
 ## Actual results
-Status: [Pending execution]
-Notes: ___________________________
+Status: Executed on 2026-02-28
+Notes: Verified sanitized exports exist and required fields are present. Evidence collected on 2026-02-28.
 
 ## Evidence to attach (redacted)
 - audit_logs.csv export reference
@@ -56,3 +56,8 @@ Notes: ___________________________
 
 ## Conclusion
 [Pending]
+
+## Evidence collected (paths)
+- artifacts/14_Evidence/2026-02/SOC2_SEC_CT-03_AuditLogs_Export_2026-02-28.csv
+- artifacts/14_Evidence/2026-02/SOC2_SEC_CT-03_QueryRuns_Sanitized_2026-02-28.csv
+- artifacts/14_Evidence/2026-02/SDG_IN_IntegritySnapshots_Export_2026-02-28.csv
