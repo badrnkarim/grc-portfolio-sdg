@@ -17,7 +17,7 @@ required = [
 "artifacts/05_Risk_ISO31000_27005/Risk_Treatment_Plan.md",
 "artifacts/06_SOC2_Assurance/SOC2_Readiness_Matrix.csv",
 "artifacts/06_SOC2_Assurance/Evidence_Request_List.md",
-"artifacts/06_SOC2_Assurance/CT-01_TOTP_MFA.md",
+"artifacts/06_SOC2_Assurance/CT-01_MFA_EmailOTP.md",
 "artifacts/06_SOC2_Assurance/CT-02_RBAC.md",
 "artifacts/06_SOC2_Assurance/CT-03_Audit_Logging.md",
 "artifacts/07_ISO37301_Compliance/CMS_Charter.md",
