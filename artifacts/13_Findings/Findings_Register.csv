@@ -1,0 +1,4 @@
+Finding ID,Area,Description,Why It Matters,Severity,Recommended Fix,Evidence Pointer,Owner,Status
+F-001,Auth,/auth/otp/setup returns otp_secret in response (demo shortcut),Secret exposure risk,High,Return otpauth URI/QR only (never raw secret),backend/app/routers/auth.py,Badr Karim,Open
+F-002,Demo/Seed,seed_demo.py includes hard-coded demo credentials + sdg_ro_password,Credential reuse risk,High,Move demo creds to env vars and label demo-only,backend/app/scripts/seed_demo.py,Badr Karim,Open
+F-003,Logging,query_runs.error_message stores full traceback,Sensitive information leakage risk,Medium,Store sanitized error + correlation ID (no traceback),backend/app/routers/gateway.py,Badr Karim,Open
