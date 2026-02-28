@@ -1,0 +1,7 @@
+Gap_ID,Gap,CSF_Function,Current_State,Target_State,Action_Plan,Owner,Due_Date,Status,Evidence_Link
+G-001,Monthly GRC reporting not yet issued,GOVERN,Templates exist but no monthly PDF published,Monthly PDF report with KPI/KRI and trend notes,Use Monthly_GRC_Report_Template and publish monthly,Badr Karim,2026-03-31,Planned,
+G-002,Access review evidence not yet recorded,PROTECT,No quarterly access review record stored,Quarterly access review record with RBAC exports,Run quarterly access review and store evidence,Badr Karim,2026-04-15,Planned,
+G-003,Weekly log review evidence not yet recorded,DETECT,Logs exist but no recorded weekly review evidence,Weekly log review checklist completed and stored,Use Log_Review_Checklist weekly and store notes,Badr Karim,2026-03-15,Planned,
+G-004,Control tests not yet executed on schedule,RESPOND/ASSURE,CT templates exist but not executed with evidence,CT-01/02/03 executed with pass/fail and evidence,Run CT-01/02/03 and attach exports/screenshots,Badr Karim,2026-03-31,Planned,
+G-005,Vendor review cadence not yet evidenced,IDENTIFY/GOVERN,TPRM pack exists but reviews not recorded,Vendor register with periodic reviews and remediation tracking,Record vendor reviews + remediation follow-up,Badr Karim,2026-04-30,Planned,
+G-006,Data retention policy not fully evidenced,IDENTIFY,Retention schedule exists but not approved/linked,Retention schedule approved and referenced in evidence tracker,Finalize retention schedule and link evidence,Badr Karim,2026-04-15,Planned,
