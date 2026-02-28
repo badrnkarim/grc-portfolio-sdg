@@ -1,0 +1,12 @@
+Evidence_ID,Control_ID,Evidence_Name,Owner,Collection_Method,Frequency,Last_Collected,Next_Due,Link/Path,Notes
+E-001,SOC2-AC-01 / SDG-AC-01,CT-01 TOTP MFA workpaper + screenshots,Badr Karim,Screenshot + notes,Per release,,,,"Redact OTP codes and never show otp_secret"
+E-002,SOC2-AC-02 / SDG-AC-02,CT-02 RBAC workpaper + deny proofs,Badr Karim,Screenshot + notes,Monthly,,,,
+E-003,SOC2-LG-01 / SDG-LG-01,audit_logs export (sanitized columns),Badr Karim,DB export (CSV),Weekly,,,,"Use export script; redact sensitive IPs if needed"
+E-004,SOC2-LG-01 / SDG-LG-02,query_runs export (sanitized columns),Badr Karim,DB export (CSV),Weekly,,,,"Do not export params/tracebacks in public evidence"
+E-005,SDG-IN-01,integrity_snapshots export (limited fields),Badr Karim,DB export (CSV),Monthly,,,,
+E-006,SDG-AC-03,Quarterly access review record,Badr Karim,Record + RBAC export,Quarterly,,,,
+E-007,SDG-LG-03,Weekly log review checklist completion,Badr Karim,Checklist + notes,Weekly,,,,
+E-008,SDG-SDLC-01,Hygiene check pass output,Badr Karim,Command output capture,Per release,,,,"Store as PDF or text evidence"
+E-009,SDG-CH-01,Change review checklist,Badr Karim,Checklist completion,Per release,,,,
+E-010,SDG-TPRM-01,Vendor review note + tracker update,Badr Karim,Note + CSV update,Quarterly,,,,
+E-011,SDG-DP-01,Data inventory/classification/retention/DPIA pack,Badr Karim,Document pack,Annual,,,,
