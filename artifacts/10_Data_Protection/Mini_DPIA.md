@@ -20,7 +20,7 @@ SDG may process additional personal/sensitive data depending on the target datab
 Controls are designed to minimize unnecessary access:
 - deny-by-default RBAC
 - template-only query execution
-- validation (SELECT-only) and row limits
+- validation (DDL-blocking SQL safety validation) and row limits
 - audit logging to support accountability
 - encryption for sensitive values at rest
 - secrets restricted to environment variables (never committed)

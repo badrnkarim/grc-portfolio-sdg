@@ -15,7 +15,7 @@ Operate a practical GRC operating model for SDG that supports:
 - Meta database (PostgreSQL) and target databases (MySQL/PostgreSQL)
 - Authentication: password + TOTP MFA (Authenticator app)
 - Authorization: RBAC (roles → allowed targets/templates)
-- Query execution: template-only queries with strict validation (SELECT-only) and enforced limits
+- Query execution: template-only queries with strict validation (DDL-blocking SQL safety validation) and enforced limits
 - SSRF safeguards for target connectivity
 - Audit evidence: request audit logs + per-execution query run logs
 - Data protection: encrypted secrets/credentials at rest (Fernet) and env-only secrets

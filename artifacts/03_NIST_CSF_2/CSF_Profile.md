@@ -16,7 +16,7 @@ Purpose: Express SDG security posture and GRC operations as outcome-based CSF pr
 ### PROTECT (safeguards)
 - Authentication: password + TOTP MFA (Authenticator) available/implemented
 - Authorization: RBAC for targets/templates
-- Query safety: SELECT-only validation + LIMIT clamp
+- Query safety: DDL-blocking SQL safety validation + LIMIT clamp
 - Secrets protection: encrypted fields (Fernet) + env-only secrets
 
 ### DETECT (monitoring)

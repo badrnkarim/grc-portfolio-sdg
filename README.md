@@ -19,7 +19,7 @@ This repository is a practical, evidence-driven GRC portfolio anchored on SDG. I
 SDG is a secure database access layer that prevents direct database access by enforcing:
 - **Authentication:** password + **TOTP MFA (Authenticator app)** (pyotp)
 - **Authorization:** RBAC (roles → allowed targets/templates)
-- **Query execution:** template-only queries with strict validation (SELECT-only) and server-side LIMIT clamp
+- **Query execution:** template-only queries with strict validation (DDL-blocking SQL safety validation) and server-side LIMIT clamp
 - **SSRF safeguards:** endpoint validation/allowlisting for targets
 - **Auditability:** request audit logs + per-execution query run logs
 - **Secrets protection:** encrypted sensitive fields (Fernet) and env-only secrets
