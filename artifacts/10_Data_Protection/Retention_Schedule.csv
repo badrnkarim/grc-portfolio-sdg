@@ -1,0 +1,8 @@
+Category,Retention_Period,Business_Justification,Disposal_Method,Owner,Notes
+audit_logs,12 months (baseline),Audit/traceability and investigation support,Delete after retention period,Badr Karim,Export sanitized columns only for evidence
+query_runs,12 months (baseline),Audit/traceability and troubleshooting,Delete after retention period,Badr Karim,Do not store params/tracebacks in public evidence
+integrity_snapshots,12 months (baseline),Integrity verification evidence,Delete after retention period,Badr Karim,Store snapshot hash evidence only
+RBAC exports,90 days (baseline),Access review evidence support,Delete after review period,Badr Karim,Redact sensitive host/IP if needed
+OTP secret ciphertext,Until account deletion,Required for MFA operation,Delete on account deletion,Badr Karim,Never export publicly
+Target credential ciphertext,Until target removed,Required for connectivity,Delete on target removal,Badr Karim,Never export publicly
+Templates,Until deprecated,Operational necessity,Archive or delete when replaced,Badr Karim,Sanitize if shared publicly
