@@ -52,7 +52,7 @@ Re-performance test with positive and negative scenarios.
 - Evidence exports show RBAC grants and query run outcomes.
 
 ## Actual results
-Status: [Pending execution]
+Status: [Executed on 2026-02-28]
 Notes: ___________________________
 
 ## Evidence to attach (redacted)
@@ -64,3 +64,10 @@ Notes: ___________________________
 
 ## Conclusion
 [Pending]
+
+
+## Evidence Results
+- DENY HTTP code: 403
+- ALLOW HTTP code: 200
+- [Audit Logs](artifacts/14_Evidence/2026-02/SOC2_SEC_CT-03_AuditLogs_Export_2026-02-28.csv)
+- [Query Runs](artifacts/14_Evidence/2026-02/SOC2_SEC_CT-03_QueryRuns_Sanitized_2026-02-28.csv)
