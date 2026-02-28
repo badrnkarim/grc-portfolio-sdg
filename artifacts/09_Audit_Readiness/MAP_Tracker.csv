@@ -1,0 +1,6 @@
+Issue_ID,Action_ID,Action,Owner,Due_Date,Status,Verification_Evidence,Notes
+ISS-001,MAP-001,Update OTP setup response to avoid returning raw otp_secret,Badr Karim,2026-03-15,Planned,PR diff + CT-01 rerun evidence,Use QR/otpauth URI only
+ISS-002,MAP-002,Move demo credentials to environment variables and update docs,Badr Karim,2026-03-15,Planned,PR diff + README/RUNBOOK update + seed demo run,Mark demo-only
+ISS-003,MAP-003,Sanitize stored errors in query_runs and add correlation IDs,Badr Karim,2026-04-01,Planned,PR diff + query_runs export shows sanitized field,Keep full traceback only in local logs
+ISS-004,MAP-004,Create quarterly access review record procedure and run first review,Badr Karim,2026-04-15,Planned,Access review record + RBAC exports,Record findings and actions
+ISS-005,MAP-005,Establish weekly log review checklist and store first completed record,Badr Karim,2026-03-15,Planned,Weekly checklist + export evidence,Include anomaly notes
