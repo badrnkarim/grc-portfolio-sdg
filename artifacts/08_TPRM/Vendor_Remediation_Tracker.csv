@@ -1,0 +1,5 @@
+Vendor,Service,Risk_Tier,Finding,Severity,Owner,Due_Date,Status,Verification_Evidence,Notes
+Docker Hub / postgres:16,Container image (meta/target DB),Medium,Track monthly image update/CVE review cadence,Medium,Badr Karim,2026-03-31,Planned,Monthly review note in Evidence Tracker,Use pinned versions; review release notes
+Docker Hub / mysql:8.0,Container image (target DB),Medium,Track monthly image update/CVE review cadence,Medium,Badr Karim,2026-03-31,Planned,Monthly review note in Evidence Tracker,Use pinned versions; review release notes
+PyPI dependencies,Open-source packages,Medium,Perform monthly dependency review and update plan,Medium,Badr Karim,2026-03-31,Planned,Dependency review record + ticket evidence,Focus on security-relevant libs
+GitHub,Source hosting/CI,Medium,Ensure repo governance and CI hygiene checks required,Medium,Badr Karim,2026-03-15,Planned,Workflow pass + branch protection screenshot (if enabled),Least privilege access recommended
