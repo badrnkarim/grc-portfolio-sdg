@@ -1,0 +1,17 @@
+Control_ID,Framework,Control_Topic,Control_Objective,SDG_Mapping,Owner,Evidence_Required,Frequency,Status
+SDG-AC-01,ISO/NIST/SOC2,TOTP MFA,Prevent account takeover by requiring second factor,OTP setup+enable and verification in SDG auth flow,Badr Karim,CT-01 screenshots + redacted OTP enable evidence,Per release,Planned
+SDG-AC-02,ISO/NIST/SOC2,RBAC least privilege,Restrict execution to approved templates/targets,role_targets + role_templates enforced in gateway,Badr Karim,RBAC exports + CT-02 deny proofs,Monthly,Planned
+SDG-AC-03,ISO/NIST/SOC2,Access reviews,Detect privilege creep and stale access,Quarterly access review record (RBAC exports),Badr Karim,Access_Review_Record + RBAC export,Quarterly,Planned
+SDG-QS-01,ISO/NIST/SOC2,SQL safety validation,Prevent unsafe SQL and injection patterns,SELECT-only + forbidden keyword filtering + single-statement enforcement,Badr Karim,Blocked query evidence + validation notes,Per release,Planned
+SDG-QS-02,ISO/NIST/SOC2,LIMIT enforcement,Prevent excessive data exfiltration and DoS,Server-side LIMIT clamp (max rows),Badr Karim,Run evidence showing capped results,Per release,Planned
+SDG-NW-01,ISO/NIST/SOC2,SSRF safeguards,Prevent internal network abuse through target config,Endpoint validation/allowlisting for targets,Badr Karim,Attempted blocked target evidence,Per release,Planned
+SDG-CR-01,ISO/NIST/SOC2,Cryptography for secrets,Protect sensitive values at rest,Fernet encryption for otp_secret_enc and password_enc,Badr Karim,Encrypted field sample (ciphertext) + config proof (no keys),Per release,Planned
+SDG-LG-01,ISO/NIST/SOC2,Audit logging (requests),Create traceability for security and assurance,audit_logs capture method/path/status/ip/user_id,Badr Karim,audit_logs export (sanitized),Weekly,Planned
+SDG-LG-02,ISO/NIST/SOC2,Query execution logging,Trace query runs for audit and IR,query_runs capture user/target/template/status/rows,Badr Karim,query_runs_sanitized export,Weekly,Planned
+SDG-LG-03,ISO/NIST/SOC2,Log review cadence,Detect anomalies and prove oversight,Weekly log review checklist completion,Badr Karim,Log_Review_Checklist record + exports,Weekly,Planned
+SDG-CH-01,ISO/NIST/SOC2,Change governance,Prevent uncontrolled releases,Change Review Checklist + hygiene check + CI pass,Badr Karim,Change_Review_Checklist + CI screenshot,Per release,Planned
+SDG-SDLC-01,ISO/NIST/SOC2,Secret hygiene,Prevent secrets committed to git,hygiene_check.sh + CI workflow,Badr Karim,hygiene_check output + workflow pass,Per push/PR,Planned
+SDG-IN-01,ISO/NIST/SOC2,Integrity snapshots,Detect drift and support verification,snapshot/verify workflow and stored snapshot hashes,Badr Karim,integrity_snapshots export + UI screenshots,Monthly,Planned
+SDG-IR-01,ISO/NIST/SOC2,Incident response readiness,Respond consistently and preserve evidence,IR one-pager + evidence capture steps,Badr Karim,IR document + evidence procedure,Annual,Planned
+SDG-TPRM-01,ISO/NIST/SOC2,Vendor risk management,Assess third-party risks and track remediation,Vendor register + reviews + remediation tracker,Badr Karim,TPRM pack + tracker updates,Quarterly,Planned
+SDG-DP-01,ISO/NIST/SOC2,Data inventory & retention,Know data and limit retention,Inventory + classification + retention schedule,Badr Karim,Data inventory + retention schedule + DPIA,Annual,Planned
