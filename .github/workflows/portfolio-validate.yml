@@ -1,0 +1,14 @@
+name: Portfolio Validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run portfolio validator
+        run: |
+          python3 tools/validate.py
