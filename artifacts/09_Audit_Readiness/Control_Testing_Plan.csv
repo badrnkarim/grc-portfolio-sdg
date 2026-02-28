@@ -1,0 +1,7 @@
+Test_ID,Related_Control,Test_Name,Frequency,Owner,Test_Method,Population,Sample_Size,Expected_Evidence,Status,Last_Test_Date,Next_Test_Date
+CT-01,SDG-AC-01 / SOC2-AC-01,TOTP MFA Enforcement,Per release,Badr Karim,Re-performance,Auth events during test window,13 attempts,Screenshots + audit_logs export,Planned,,
+CT-02,SDG-AC-02 / SOC2-AC-02,RBAC Authorization,Monthly,Badr Karim,Re-performance,Gateway runs during test window,3 scenarios,RBAC exports + query_runs export,Planned,,
+CT-03,SDG-LG-01 / SOC2-LG-01,Audit Logging Completeness,Weekly,Badr Karim,Inspection + re-performance,Admin actions + gateway runs,2 events minimum,audit_logs + query_runs exports,Planned,,
+CT-04,SDG-QS-01,SQL Safety Negative Testing,Per release,Badr Karim,Re-performance,Query execution requests,5 negative cases,Blocked query evidence + notes,Planned,,
+CT-05,SDG-NW-01,Target Validation / SSRF Safeguards,Per release,Badr Karim,Re-performance,Target creation/test attempts,3 negative cases,Blocked target evidence,Planned,,
+CT-06,SDG-IN-01,Integrity Snapshot Verify,Monthly,Badr Karim,Re-performance,Snapshots created in period,1 snapshot+verify,integrity_snapshots export + screenshots,Planned,,
