@@ -1,0 +1,19 @@
+Control_Topic,Applicable(Y/N),Justification,Implementation_Status,Owner,Evidence_Pointer
+Information security roles and responsibilities,Y,Required to operate GRC and control ownership,Implemented,Badr Karim,Governance Charter + RACI
+Access control policy,Y,Required to govern access consistently,Implemented,Badr Karim,Access Control & MFA Policy
+Identity lifecycle management,Y,Users must be provisioned and removed in a controlled way,Planned,Badr Karim,Admin user management evidence
+Strong authentication (MFA),Y,TOTP MFA reduces account takeover risk,Implemented,Badr Karim,CT-01 + OTP setup/enable evidence
+Least privilege / RBAC,Y,Restricts templates/targets to approved roles,Implemented,Badr Karim,CT-02 + RBAC exports
+Secure query execution rules,Y,Prevent unsafe SQL and enforce least capability,Implemented,Badr Karim,SQL safety evidence + blocked attempts
+SSRF / endpoint validation,Y,Targets must be validated to prevent internal abuse,Implemented,Badr Karim,Target validation evidence
+Cryptographic controls for sensitive data,Y,Encrypted secrets/credentials required,Implemented,Badr Karim,Fernet encryption evidence
+Logging and audit trail,Y,Traceability required for assurance and IR,Implemented,Badr Karim,audit_logs + query_runs exports
+Monitoring and log review,Y,Ongoing oversight required,Planned,Badr Karim,Weekly Log Review Checklist + exports
+Change management,Y,Prevent uncontrolled changes,Implemented,Badr Karim,Change Review Checklist + CI hygiene pass
+Secure SDLC hygiene,Y,Prevent secrets in git and reduce supply-chain risk,Implemented,Badr Karim,hygiene_check output + workflow pass
+Vulnerability management,Y,Dependency updates and review cadence required,Planned,Badr Karim,TPRM dependency review record
+Backup/recovery assumptions,Y,Recoverability must be documented,Planned,Badr Karim,Runbook reset procedure + tabletop note
+Incident response readiness,Y,Respond consistently and preserve evidence,Planned,Badr Karim,IR One-Pager + evidence capture steps
+Supplier security / TPRM,Y,Third-party risk must be assessed,Planned,Badr Karim,TPRM pack + vendor register
+Data retention and disposal,Y,Limit exposure window and define retention,Planned,Badr Karim,Retention schedule + evidence
+Privacy impact awareness,Y,May process personal data depending on target DB,Planned,Badr Karim,Mini DPIA
