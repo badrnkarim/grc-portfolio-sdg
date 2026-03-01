@@ -1,4 +1,4 @@
-# SDG — GRC Proof Portfolio (Evidence-Backed)
+# SDG — GRC Portfolio (Evidence-Backed)
 
 Owner: **Badr Karim** (U.S. Citizen)  
 As-of: **2026-02-28**  
