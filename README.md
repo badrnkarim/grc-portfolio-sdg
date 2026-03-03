@@ -1,5 +1,8 @@
 # SDG — GRC Portfolio (Evidence-Backed)
 
+## Start Here
+- **Main Overview (README):** 
+
 Owner: **Badr Karim** (U.S. Citizen)  
 As-of: **2026-02-28**  
 Target roles: **GRC Intern • TPRM Intern • Security Assurance/Audit Intern**
@@ -50,4 +53,3 @@ Open: `docs/CONTROL_TESTS_SUMMARY.md`
 - No secrets or OTP codes in screenshots  
 - No sensitive query results in screenshots  
 - All evidence named per: `docs/EVIDENCE_NAMING_STANDARD.md`
-
