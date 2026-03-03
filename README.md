@@ -1,6 +1,6 @@
 # SDG GRC Portfolio — Multi-Framework Assurance (US-Grade)
 
-**Author/Owner:** Badr Karim — Cybersecurity GRC Intern | Security Assurance | Risk-Based Controls | Privacy-Driven TPRM  
+**Author/Owner:** Badr Karim — Cybersecurity GRC Intern | Security Assurance | Risk-Based Controls | Multi-Framework Controls 
 **Portfolio type:** Risk-based controls + multi-framework mapping + assurance-ready evidence structure
 
 This repository is my **multi-framework GRC assurance portfolio**, anchored on a real system (**Secure Database Gateway — SDG**), built to demonstrate **US workplace-style security governance and control assurance**.  
