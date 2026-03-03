@@ -1,26 +1,33 @@
-# SDG — GRC Portfolio (Evidence-Backed)
+# SDG GRC Portfolio — Multi-Framework Assurance (US-Grade)
 
 **Author/Owner:** Badr Karim — Cybersecurity GRC Intern | Security Assurance | Risk-Based Controls | Privacy-Driven TPRM  
-**Portfolio focus:** Evidence-backed security governance and assurance, anchored on a real system (**Secure Database Gateway — SDG**)
+**Portfolio type:** Risk-based controls + multi-framework mapping + assurance-ready evidence structure
 
-This repository is a US-grade GRC portfolio built to demonstrate **assurance-style execution**, not just documentation.  
-It organizes risk decisions, control requirements, testing approach, and **verifiable evidence** into a reviewer-ready structure suitable for security assurance and audit workflows.
+This repository is my **multi-framework GRC assurance portfolio**, anchored on a real system (**Secure Database Gateway — SDG**), built to demonstrate **US workplace-style security governance and control assurance**.  
+It is organized around **risk-first control decisions** and mapped across **COBIT • NIST CSF 2.0 • ISO 27000 family • ISO 31000 • SOC 2 • ISO 37301** to maximize coverage and reduce redundancy.
 
-## Start Here (60 seconds)
-Open in this order:
+## Why this portfolio is “assurance-grade”
+This repo is structured like a real assurance engagement and supports clear traceability:
 
-1) **Recruiter overview:** `docs/RECRUITER_OVERVIEW.md`  
-2) **Portfolio index:** `artifacts/00_Index/PORTFOLIO_INDEX.md`  
-3) **Executed tests summary:** `docs/CONTROL_TESTS_SUMMARY.md`  
-4) **Framework coverage:** `docs/FRAMEWORK_COVERAGE.md`  
+**Risk → Controls → Test Approach → Evidence → Findings → CAPA → Verification**
+
+A reviewer can follow the logic from risk drivers to control selection, then to validation outcomes and proof.
 
 ---
 
-## Why this portfolio is strong
-- **Evidence-first:** each claim is backed by screenshots or sanitized exports (risk → control → test → evidence)  
-- **Assurance-ready:** workpapers, issue log, mapping tracker, and audit-friendly evidence discipline  
+## Start Here (60 seconds)
+1) **Recruiter overview:** `docs/RECRUITER_OVERVIEW.md`  
+2) **Portfolio index:** `artifacts/00_Index/PORTFOLIO_INDEX.md`  
+3) **Executed tests summary:** `docs/CONTROL_TESTS_SUMMARY.md`  
+4) **Framework coverage:** `docs/FRAMEWORK_COVERAGE.md`
+
+---
+
+## What makes this portfolio strong
+- **Evidence-driven:** screenshots + sanitized exports linked end-to-end (**risk → control → test → evidence**)  
 - **Framework-aligned:** COBIT • NIST CSF 2.0 • ISO 27001/27002/27005 • ISO 31000 • SOC 2 • ISO 37301  
-- **Honest reporting:** findings are documented, remediation is tracked, and closure is verifiable  
+- **Audit-ready:** workpapers, issue log, mapping tracker, and an evidence naming standard  
+- **Honest reporting:** findings are documented and remediations are tracked  
 
 ---
 
@@ -46,8 +53,8 @@ Open: `docs/CONTROL_TESTS_SUMMARY.md`
 ---
 
 ## Evidence rules (non-negotiable)
-- No secrets, keys, or OTP codes in screenshots  
-- No sensitive query results or customer data in screenshots  
+- No secrets or OTP codes in screenshots  
+- No sensitive query results in screenshots  
 - All evidence named per: `docs/EVIDENCE_NAMING_STANDARD.md`
 
 ---
